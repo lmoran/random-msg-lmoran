@@ -6,11 +6,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["javascript", "node", "npm"],
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
   "author": "luis moran",
   "license": "MIT",
   "bin": {
-    "random-msg2": "./bin/global.js"
+    "random-msg2": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lmoran/random-msg-lmoran.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lmoran/random-msg-lmoran/issues"
+  },
+  "homepage": "https://github.com/lmoran/random-msg-lmoran#readme"
 }
